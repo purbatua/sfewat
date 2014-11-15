@@ -1,0 +1,17 @@
+{
+  "name": "modernizr",
+  "version": "2.8.3",
+  "main": "modernizr.js",
+  "author": [
+    "Faruk Ates",
+    "Paul Irish",
+    "Alex Sexton"
+  ],
+  "ignore": [
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "component.json",
+    "package.json",
+    "test.html"
+  ]
+}

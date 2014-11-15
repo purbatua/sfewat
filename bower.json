@@ -1,0 +1,56 @@
+{
+  "name": "sfewat",
+  "version": "0.0.1",
+  "authors": [
+    "purbatua <purbatua.pasaribu@gmail.com>"
+  ],
+  "description": "Simple front end web app template (SFEWAT)",
+  "main": [
+    ".public/js/**/*.js",
+    ".public/css/**/*.css",
+    ".public/img/*.*",
+    ".public/fonts/*.*"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Simple",
+    "Front End",
+    "Web",
+    "App",
+    "Template"
+  ],
+  "license": "CC 0.1",
+  "homepage": "http://gapspace.co",
+  "ignore": [
+    "**/*.txt",
+    "*.yml",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    ".bower.json",
+    "grunt.js",
+    "gruntfile.js",
+    "package.json",
+    "README.md",
+    "readme.md"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.7",
+    "jquery": ">= 1.9.0",
+    "html5-boilerplate": "~4.3.0",
+    "normalize.css": "~3.0.2",
+    "modernizr": "~2.8.3"
+  },
+  "devDependencies": {},
+  "private": true
+}

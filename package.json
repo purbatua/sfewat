@@ -1,0 +1,39 @@
+{
+  "name": "sfewat",
+  "version": "0.0.1",
+  "description": "Simple front end web app template (SFEWAT)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-filter": "^1.0.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-ignore": "^1.2.1",
+    "gulp-inject-string": "0.0.2",
+    "gulp-using": "0.0.1",
+    "gulp-wait": "0.0.2",
+    "main-bower-files": "^2.4.0",
+    "multimatch": "^1.0.0",
+    "vinyl-fs": "^0.3.11"
+  },
+  "devDependencies": {
+    "gulp-html-replace": "^1.4.1",
+    "gulp-inject": "^1.0.2",
+    "gulp-replace-task": "^0.1.0",
+    "gulp-watch": "^1.2.0",
+    "run-sequence": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Simple",
+    "Front End",
+    "Web",
+    "App",
+    "Template"
+  ],
+  "author": "Purba Tua Pasaribu",
+  "license": "CC 0.1"
+}
