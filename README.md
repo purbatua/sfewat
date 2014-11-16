@@ -1,7 +1,7 @@
 sfewat
 ======
 
-simple front-end web app template (sfewat) is a simple template generator for front-end web app for faster and easier web development, its run through node.js with execute gulp file.
+simple front-end web app template (sfewat) is a simple template and you can use for generate your own template by build html, css, and js file for faster and easier web development, its run through node.js with execute gulp file.
 
 ## Usage
 
@@ -40,14 +40,16 @@ For use this generator you need to install:
 	```
 
 4. Run the task
-	run the task in the gulpfile.js just with write:
+
+	run the task in the `gulpfile.js` simply by writing the command below:
+
 	```
 	gulp
 	```
 
 ## Example
 
-On the example i use [Html5-boilerplate](html5boilerplate.com) and [Foundation](foundation.zurb.com) framework that have dependencies: jQuery, jQuery cookie, jQUery placeholder, fastclick.js, modernizr.js, and normalize.css. The result app structure will show like this:
+On the example i use [Html5-boilerplate](html5boilerplate.com) and [Foundation](foundation.zurb.com) framework that have dependencies: `jquery.js`, `jquery.cookie.js`, `jquery.placeholder.js`, `fastclick.js`, `modernizr.js`, and `normalize.css`. The result app structure will show like this:
 
 
 ```
@@ -56,13 +58,17 @@ app/
 │	│
 │	├── css/
 │	│	├── vendor/
-│	│	│	└── file-1.css
-│	│	│	└──	file-n.css
+│	│	│	└── foundation.css
+│	│	│	└──	normalize.css
 │	│	└── main.css	
 │	└── js/
 │		├── vendor/
-│		│	├── file-1.js
-│		│	└── file-n.js
+│		│	├── fastclick.js
+│		│	├── foundation.js
+│		│	├── jquery.cookie.js
+│		│	├── jquery.js
+│		│	├── jquery.placeholder.js
+│		│	└── modernizr.js
 │		├── main.js
 │		└── plugins.js
 │
@@ -81,4 +87,4 @@ app/
 
 ## License
 
-This code is available at github [project](https://github.com/purbatua/sfewat) under <span>[creative commons - attribution](http://creativecommons.org/licenses/)</span>.
+This code is available at github [project](https://github.com/purbatua/sfewat) under [creative commons - attribution](http://creativecommons.org/licenses/).
